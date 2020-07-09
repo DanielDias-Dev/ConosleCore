@@ -31,10 +31,21 @@ namespace ProAgil.API.Controllers
         //GET ALL
         [HttpGet]
 
-        public ActionResult<IEnumerable<Evento>> Get()
+        //public ActionResult<IEnumerable<Evento>> Get()
+        public async Task<IActionResult> Get()
         {
-
-            return _context.Eventos.ToList();
+            try
+            {
+                 var results = await _context.Eventos.ToListAsync();
+                 return Ok(results);
+            }
+            catch (System.Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
+                throw;
+            }
+           
+            //return _context.Eventos.ToList();
 
             // return new Evento[] {
             //     new Evento (){
@@ -59,9 +70,21 @@ namespace ProAgil.API.Controllers
         //GET by ID
         [HttpGet("{id}")]
 
-        public ActionResult<Evento> Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return _context.Eventos.FirstOrDefault(x => x.EventoId == id);
+            //return _context.Eventos.FirstOrDefault(x => x.EventoId == id);
+            try
+            {
+                 var results = await _context.Eventos.FirstOrDefaultAsync(x => x.EventoId == id);
+                 return Ok(results);
+            }
+            catch (System.Exception)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
+                throw;
+            }
+
+
             // return new Evento[] {
             //     new Evento (){
             //         EventoId=1,
