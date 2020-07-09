@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj": {}
+    "C:\\Users\\ddias\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj": {
+    "C:\\Users\\ddias\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj",
+        "projectUniqueName": "C:\\Users\\ddias\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj",
         "projectName": "ProAgil.API",
-        "projectPath": "C:\\Users\\USER\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\obj\\",
+        "projectPath": "C:\\Users\\ddias\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\ProAgil.API.csproj",
+        "packagesPath": "C:\\Users\\ddias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ddias\\Documents\\Dev\\Curso FullStack\\Seção 2\\ProAgil.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ddias\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
